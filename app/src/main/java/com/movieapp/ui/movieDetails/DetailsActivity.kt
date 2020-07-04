@@ -8,12 +8,12 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
-import com.movieapp.MovieDetails
+import com.movieapp.data.valueObject.MovieDetails
 import com.movieapp.R
-import com.movieapp.api.POSTER_BASE_URL
-import com.movieapp.api.TheMovieDBClient
-import com.movieapp.api.TheMovieDbInterface
-import com.movieapp.repository.NetworkState
+import com.movieapp.data.api.POSTER_BASE_URL
+import com.movieapp.data.api.TheMovieDBClient
+import com.movieapp.data.api.TheMovieDbInterface
+import com.movieapp.data.repository.NetworkState
 import kotlinx.android.synthetic.main.activity_details.*
 import java.text.NumberFormat
 import java.util.*

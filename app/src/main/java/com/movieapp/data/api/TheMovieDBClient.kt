@@ -1,4 +1,4 @@
-package com.movieapp.api
+package com.movieapp.data.api
 
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient

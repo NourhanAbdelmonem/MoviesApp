@@ -1,4 +1,4 @@
-package com.movieapp.repository
+package com.movieapp.data.repository
 
 
 enum class Status {

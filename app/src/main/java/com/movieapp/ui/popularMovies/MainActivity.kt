@@ -3,17 +3,15 @@ package com.movieapp.ui.popularMovies
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.GridLayout
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
 import com.movieapp.R
-import com.movieapp.api.TheMovieDBClient
-import com.movieapp.api.TheMovieDbInterface
-import com.movieapp.repository.NetworkState
-import com.movieapp.ui.movieDetails.MovieDetailsRepository
+import com.movieapp.data.api.TheMovieDBClient
+import com.movieapp.data.api.TheMovieDbInterface
+import com.movieapp.data.repository.NetworkState
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

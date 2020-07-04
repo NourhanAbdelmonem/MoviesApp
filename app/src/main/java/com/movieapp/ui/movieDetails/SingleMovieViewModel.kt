@@ -2,8 +2,8 @@ package com.movieapp.ui.movieDetails
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import com.movieapp.MovieDetails
-import com.movieapp.repository.NetworkState
+import com.movieapp.data.valueObject.MovieDetails
+import com.movieapp.data.repository.NetworkState
 import io.reactivex.disposables.CompositeDisposable
 
 class SingleMovieViewModel(private val movieDetailsRepository: MovieDetailsRepository, movieId :Int) :ViewModel() {

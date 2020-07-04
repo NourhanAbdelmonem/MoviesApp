@@ -9,10 +9,10 @@ import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.movieapp.Movie
+import com.movieapp.data.valueObject.Movie
 import com.movieapp.R
-import com.movieapp.api.POSTER_BASE_URL
-import com.movieapp.repository.NetworkState
+import com.movieapp.data.api.POSTER_BASE_URL
+import com.movieapp.data.repository.NetworkState
 import com.movieapp.ui.movieDetails.DetailsActivity
 import kotlinx.android.synthetic.main.movie_list_item.view.*
 import kotlinx.android.synthetic.main.network_state_item.view.*

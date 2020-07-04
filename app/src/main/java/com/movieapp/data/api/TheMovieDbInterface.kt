@@ -1,7 +1,7 @@
-package com.movieapp.api
+package com.movieapp.data.api
 
-import com.movieapp.MovieDetails
-import com.movieapp.MoviesResponse
+import com.movieapp.data.valueObject.MovieDetails
+import com.movieapp.data.valueObject.MoviesResponse
 import io.reactivex.Single
 import retrofit2.http.GET
 import retrofit2.http.Path

@@ -3,8 +3,8 @@ package com.movieapp.ui.popularMovies
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.paging.PagedList
-import com.movieapp.Movie
-import com.movieapp.repository.NetworkState
+import com.movieapp.data.valueObject.Movie
+import com.movieapp.data.repository.NetworkState
 import io.reactivex.disposables.CompositeDisposable
 
 class MainActivityViewModel(private val movierepository: MoviesPagedListRepository) : ViewModel() {

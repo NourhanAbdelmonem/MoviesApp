@@ -1,4 +1,4 @@
-package com.movieapp
+package com.movieapp.data.valueObject
 
 
 import com.google.gson.annotations.SerializedName
